@@ -68,6 +68,7 @@ jobs:
           projectName: erison-work # e.g. 'my-project'
           directory: dist # e.g. 'dist'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
 
   comment:
     runs-on: ubuntu-latest
