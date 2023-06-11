@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1 class="mr-2">Hello hello :)</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -39,21 +39,14 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           ></path><circle cx="6" cy="18" r="2"></circle>
         </svg>
       </a>
-
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        This page is destinated to share technology content that I have found
+        during my journey as Software engineer and some interesting points that
+        I consider relevant. I hope those contents could help somehow.
       </p>
       <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        You can find me in one of my contacts bellow, so don't hesitate to ping
+        me if you want, I will be glad to make new connections.
       </p>
       {
         // only display if at least one social link is enabled
@@ -92,16 +85,18 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <h2>Recent Posts</h2>
       <ul>
         {
-          sortedPosts.map(
-            ({ data }, index) =>
-              index < 4 && (
-                <Card
-                  href={`/posts/${slugify(data)}`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              )
-          )
+          sortedPosts
+            .filter(({ data }) => !data.featured)
+            .map(
+              ({ data }, index) =>
+                index < 4 && (
+                  <Card
+                    href={`/posts/${slugify(data)}`}
+                    frontmatter={data}
+                    secHeading={false}
+                  />
+                )
+            )
         }
       </ul>
       <div class="all-posts-btn-wrapper">
@@ -123,7 +118,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <style>
   /* ===== Hero Section ===== */
   #hero {
-    @apply pt-8 pb-6;
+    @apply pb-6 pt-8;
   }
   #hero h1 {
     @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
@@ -141,13 +136,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply mt-4 flex flex-col sm:flex-row sm:items-center;
   }
   .social-links {
-    @apply mr-2 mb-1 whitespace-nowrap sm:mb-0;
+    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
   }
 
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
   #recent-posts {
-    @apply pt-12 pb-6;
+    @apply pb-6 pt-12;
   }
   #featured h2,
   #recent-posts h2 {
