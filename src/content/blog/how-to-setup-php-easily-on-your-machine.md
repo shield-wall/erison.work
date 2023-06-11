@@ -23,7 +23,7 @@ for the end, you could run PHP on command line only 😔.
 But on sections bellow, you going to find a setup with one **copy** and **past** command, and _you have a complete php stack running_
 with a small php structure for you use as study guide in case, you are new on php land.
 
-# Requirements
+## Requirements
 
 Before we start, you **MUST** have two tools already installed on your computer.
 
@@ -45,7 +45,7 @@ docker compose version
 
 > For **Windows** users I would say that you must install [WSL][wsl_install_link] to have this working.
 
-# Let's make this work 🚀
+## Let's make this work 🚀
 
 After you have done the requirements step, we can now run command to have this ready to play with php 🐘.
 
@@ -65,7 +65,7 @@ git clone https://github.com/shield-wall/easy-php-setup.git \
 && docker compose exec -T db sh -c 'exec mysql --defaults-extra-file=.docker/mysql/config.cnf' < .docker/mysql/dump.sql
 ```
 
-# Troubleshooting
+## Troubleshooting
 
 In case the error bellow pop up on your terminal.
 
@@ -92,7 +92,7 @@ docker compose exec -T db sh -c 'exec mysql --defaults-extra-file=.docker/mysql/
 
 > In case you find out other issue that is not related here, open an [issue][repository_issue_link] on github.
 
-# Commands
+## Commands
 
 | Command                                  | Description                                                          |
 | ---------------------------------------- | -------------------------------------------------------------------- |
@@ -100,7 +100,7 @@ docker compose exec -T db sh -c 'exec mysql --defaults-extra-file=.docker/mysql/
 | docker compose down                      | Stop containers                                                      |
 | docker compose exec php composer install | Execute some **php command** that you need, or **composer command**. |
 
-# Frameworks
+## Frameworks
 
 This project should work, out the box, for the most _modern php frameworks_ such as [Symfony][symfony_link] and [Laravel][laravel_link].
 
@@ -109,7 +109,7 @@ In case you just want to use the environment, you can remove all files and keep 
 But if you find some strange behaviour, feel free to open an [issue][repository_issue_link]
 or even better provide a PR to improve the [project][repository_link] 🚀.
 
-# Study guide
+## Study guide
 
 As you can see I added a tiny php structure, I did this for two reasons.
 
