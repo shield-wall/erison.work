@@ -7,7 +7,7 @@ Hello Hello,
 
 I'm Erison Silva and I've been working in the past 10 years as Software developer.
 
-here you can download my [resume](https://bucket.myprofile.pro/users/eerison/resume.pdf?run_id=5023283049) and have a better understand of my professional journey.
+here you can download my [resume](https://bucket.myprofile.pro/users/eerison/resume-default.pdf?run_id=5023283049) and have a better understand of my professional journey.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
