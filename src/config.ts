@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://blog.erison.work",
   author: "Erison Silva",
   desc: "It's my personal blog, here I'm posting techinical posts and things that I consider intersting to share.",
-  title: "ErisonSilva",
+  title: "Erison Silva",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
