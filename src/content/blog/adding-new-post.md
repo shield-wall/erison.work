@@ -4,7 +4,7 @@ pubDatetime: 2023-06-11T15:22:00Z
 title: How you can create an amazing resume using github actions
 postSlug: how-create-a-amazing-resume
 featured: true
-draft: false
+draft: true
 tags:
   - open-source
 ogImage: ""
