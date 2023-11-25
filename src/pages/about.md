@@ -7,11 +7,11 @@ Hello Hello,
 
 I'm Erison Silva and I've been working in the past 10 years as Software developer.
 
-## Resume
+## 📋 Resume
 
 Here you can download my last [resume](https://bucket.myprofile.pro/users/eerison/resume-default.pdf) version.
 
-## Open Source
+## ♥️ Open Source
 
 Open source has been a topic that I always want to be be involved, and in Octuber 2020 I did my first Pull request for [Sonata User Bundle][first_pr_sonata_user]!
 and Since there I ejoyed more and more contribute with OSS projects, Thanks Sonata Project for be so receptive and helpfull in my first contribuition <3.
@@ -35,8 +35,8 @@ Rector is another php community really friendly, I started to contribute with th
 
 > Thank you ractor for this amazing project, it is a really good example that community works <3
 
-- [rector-phpunit][rector_phpunit_prs]
-- [rector-src][rector_phpunit_prs]
+- [Rector][rector_src_prs]
+- [Rector Phpunit][rector_phpunit_prs]
 
 ### All contributions
 
