@@ -13,15 +13,24 @@ ogImage: https://70a4a652.erison-work.pages.dev/_astro/how-to-extend-final-class
 description: You want to change an behaviour from a class that is final, But you do not have control over this class, in this article I can give you one alternative.
 ---
 
-![An astronauta carring a laptop](@assets/images/how-to-extend-final-class.png)
+![a screenshot with a php code example and an error message saying that it not possible extend final class](@assets/images/how-to-extend-final-class.png)
 
-Probrably you saw the issue that you want to change some class behaviour that you don't have control of that, and you can't extend this class :(
+If you are strugguling to extend a class that is `final`, and you can't remove or don't have the code control, then this article can give you an alternative.
 
-It usually happen when you are using some third lib and it blocks you.
-
-Note: be cariful with extend classes, if you see the your class gonna have many lavels of inherince then think in another approach.
+Sometime you want to overide a class behaviour, But you don't have control over that class, like a thrid part code.
 
 # Why is it final?
+
+You going to see projects that all concrete classes are closed to extends and others not, why?
+
+The short answer is **number of mantainers**.
+
+> to make this article I compared some projects, and I asked myself why big open source projects, like symfony doesn't close their classes to extend.
+> and in this thread I got some thoughts for a possible answer.
+
+Projetcs with active mantainers can give you more flexibilty, But this flexibilty cost a code/solution more elaborated and for this be possible you need a hight level team.
+
+in the other hand when you force the dev implement an interface,
 
 I offen see more and more open source projects closing their classes for extention, and It is happen because, it is more complicate
 to keep **BC (Backward Compatibility) Promise**
