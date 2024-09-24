@@ -19,6 +19,8 @@ const { noMarginTop = false } = Astro.props;
       <span>Copyright &#169; {currentYear}</span>
       <span class="separator">&nbsp;|&nbsp;</span>
       <span>All rights reserved.</span>
+      <span class="separator">&nbsp;|&nbsp;</span>
+      <span>Images by <a href="https://www.freepik.com">Freepik</a></span>
     </div>
   </div>
 </footer>
@@ -41,5 +43,8 @@ const { noMarginTop = false } = Astro.props;
   }
   .separator {
     @apply hidden sm:inline;
+  }
+  a {
+    @apply relative underline decoration-dashed hover:-top-0.5 hover:text-skin-accent focus-visible:p-1;
   }
 </style>
