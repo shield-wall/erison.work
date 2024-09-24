@@ -5,7 +5,7 @@ export const SITE: Site = {
   profile: "https://blog.erison.work", // TODO: I do not know why we need this
   author: "Erison Silva",
   desc: "It's my personal blog, here I'm posting techinical posts and things that I consider intersting to share.",
-  title: "Erison Silva",
+  title: "erison.work",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,

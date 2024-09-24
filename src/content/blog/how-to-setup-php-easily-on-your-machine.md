@@ -10,11 +10,8 @@ tags:
   - developer
   - beginner
   - setup
-ogImage: https://blog.erison.work/_astro/how-to-setup-php-easily-on-your-machine.2b7537c4_Z6cLXe@3540w.jpeg
 description: The easiest way to setup whole PHP stack locally with one command only.
 ---
-
-![An astronauta carring a laptop](@assets/images/how-to-setup-php-easily-on-your-machine.jpg)
 
 My goal with this post is you have a _PHP environment_ running on your machine quickly and easy.
 I saw some people struggling to have this done, and tutorials that you need to follow a bunch of steps
