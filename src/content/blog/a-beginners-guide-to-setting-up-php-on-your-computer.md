@@ -1,8 +1,8 @@
 ---
 author: Erison Silva
 pubDatetime: 2023-11-28T10:00:00Z
-title: How to easily setup PHP on your machine
-slug: how-to-easily-setup-php-on-your-machine
+title: A beginner's guide to setting up PHP on your computer
+slug: a-beginners-guide-to-setting-up-php-on-your-computer
 featured: true
 draft: false
 tags:
@@ -10,7 +10,7 @@ tags:
   - developer
   - beginner
   - setup
-description: The easiest way to setup the whole PHP stack locally with one command only.
+description: Easily install and configure the entire PHP stack on your machine in one simple step, perfect for beginners.
 ---
 
 My goal with this post is you have a _PHP environment_ running on your machine quickly and easy.
