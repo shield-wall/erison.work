@@ -5,7 +5,8 @@ services:
     image: node:20
     ports:
       - 4321:4321
+      - 4001:4001
     working_dir: /app
-    command: npm run dev -- --host 0.0.0.0
+    command: npm run dev
     volumes:
       - ./:/app
